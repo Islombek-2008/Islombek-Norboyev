@@ -1,0 +1,93 @@
+.about {
+	height: 961px;
+	width: 100%;
+	margin-top: 198px;
+	display: flex;
+	justify-content: center;
+}
+.about-me {
+	width: 1224px;
+	position: relative;
+}
+.about-me-circle1 {
+	width: 792px;
+	height: 792px;
+}
+.about-me-circle2 {
+	width: 356px;
+	height: 356px;
+	position: absolute;
+	top: -20px;
+	right: 100px;
+}
+.about-me-circle3 {
+	width: 486px;
+	height: 486px;
+	position: absolute;
+	top: 485px;
+	right: 100px;
+}
+
+.about-me_img {
+	width: 272px;
+	height: 320px;
+	border: 18px solid #2c2c2c;
+	border-radius: 5px;
+	object-fit: cover;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+.about-me_img1 {
+	width: 250px;
+	height: 281px;
+	object-fit: cover;
+	border: 18px solid #2c2c2c;
+	border-radius: 5px;
+	position: absolute;
+	top: 500px;
+	left: 120px;
+}
+.about-me_img2 {
+	position: absolute;
+	border: 18px solid #2c2c2c;
+	border-radius: 5px;
+	top: 250px;
+	left: 850px;
+	width: 287px;
+	height: 427px;
+	object-fit: cover;
+}
+.about-me__item {
+	position: absolute;
+	position: relative;
+	top: -750px;
+	left: 350px;
+	width: 514px;
+	height: 774px;
+	padding: 0 63px;
+	background: #2c2c2c;
+	border-radius: 14px;
+}
+.about-me__item h2 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 54px;
+	display: flex;
+	align-items: center;
+	color: #e4e4e4;
+}
+.about-me__item p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+	color: #ffffff;
+}
+hr {
+	color: #ffffff;
+}
