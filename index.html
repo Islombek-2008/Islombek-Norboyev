@@ -26,6 +26,8 @@
 		<link rel="stylesheet" href="./css/about-me.css" />
 		<link rel="stylesheet" href="./css/portfolio.css" />
 		<link rel="stylesheet" href="./css/icons.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
+		<link rel="stylesheet" href="./css/nav.css" />
 	</head>
 	<body>
 		<!-- icons -->
@@ -44,6 +46,11 @@
 			<div class="icons-1">
 				<a href="#facebook"
 					><i class="bi bi-facebook" style="color: blue; font-size: 28px"></i>
+				</a>
+			</div>
+			<div class="icons-1">
+				<a href="#twitter"
+					><i class="bi bi-twitter" style="color: aqua; font-size: 28px;"></i></i>
 				</a>
 			</div>
 		</div>
@@ -89,7 +96,7 @@
 							>
 						</li>
 					</ul>
-					<h4 class="me-1">You want to make friends 👉</h4>
+					<h4 class="me-1">You want to make friends <span>👉</span></h4>
 					<button
 						type="button"
 						class="btn btn-primary"
@@ -163,7 +170,6 @@
 					</div>
 				</div>
 			</div>
-			<script src="./js/modal.js"></script>
 		</nav>
 
 		<!-- header -->
@@ -211,25 +217,20 @@
 					<h2>About me</h2>
 					<hr />
 					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
-						accusamus! Fugiat, quis aliquam. Ab voluptatem quibusdam hic,
-						incidunt a nisi rerum sit aperiam ipsum magnam temporibus? Hic optio
-						eligendi nihil sunt quidem temporibus alias! Accusantium possimus,
-						molestiae voluptas dicta excepturi maxime, officiis aspernatur sed,
-						dolores error ipsam. Praesentium quaerat hic placeat, quia modi,
-						fuga adipisci suscipit deserunt aperiam eaque molestias, doloremque
-						repellendus quis consequuntur ut distinctio officia sequi! Adipisci
-						asperiores inventore, enim similique excepturi soluta, nostrum
-						reiciendis mollitia nemo veritatis debitis doloremque ducimus ad in
-						eveniet. Dolore expedita eius doloribus impedit excepturi quo quasi.
-						Voluptatum aliquid reiciendis assumenda ipsum cum veniam vero ullam,
-						quod, provident sint perferendis laudantium voluptatem optio dolorum
-						repudiandae officiis veritatis voluptatibus dignissimos sapiente
-						quis fuga iste distinctio. Animi error recusandae, autem libero
-						illum ipsam et, sit sunt reprehenderit numquam deserunt facilis eum
-						cupiditate a accusamus accusantium corporis deleniti. Unde,
-						obcaecati corporis quisquam qui aliquam doloribus cupiditate?
+						Hello, I am Norboyev Islambek Iskanderovich. I am 14 years old. I
+						live in Piskent district of Tashkent region. I study in the 8th
+						grade at the 18th general secondary school. I am a future
+						programmer. I will be a programmer when I grow up. I like to work on
+						the computer and read poetry books very quickly. I'm looking forward
+						to it. I am currently studying programming. I am currently learning
+						javascript. After graduating from JavaScript, I started learning
+						easa VueJs.
 					</p>
+					<img
+						src="./img/about-me/islombek5.png"
+						alt="islombek5"
+						class="about-me_img3"
+					/>
 				</div>
 				<img
 					src="./img/about-me/islombek2.jpg"
@@ -374,8 +375,8 @@
 		<!-- contact -->
 
 		<div id="wrapper">
-			<input id="search" type="text" placeholder="Search" autocomplete="off" />
 			<h1>ISLOMBEK NORBOYEV</h1>
+			<input id="search" type="text" placeholder="Search" autocomplete="off" />
 			<ul id="files" class="view-tiles">
 				<li>
 					<a
@@ -427,7 +428,6 @@
 					<a
 						href="https://github.com/Islombek-2008"
 						class="icon icon icon-js icon-application-javascript"
-						title="app.js"
 						><span class="name"
 							>GitHub <i class="bi bi-github" style="color: black"></i></span
 					></a>
@@ -435,9 +435,18 @@
 				<img src="./img/github.jpeg" alt="github" class="view-tiles_img1" />
 				<li>
 					<a
+						href="https://github.com/Islombek-2008"
+						class="icon icon icon-js icon-application-javascript"
+						id="twitter"
+						><span class="name"
+							>Twitter <i class="bi bi-twitter" style="color: aqua"></i></span
+					></a>
+				</li>
+				<img src="./img/twitter.jpg" alt="twitter" class="view-tiles_img1" />
+				<li>
+					<a
 						href="https://app.netlify.com/teams/islombek-2008/overview"
 						class="icon icon icon-js icon-application-javascript"
-						title="app.js"
 						><span class="name"
 							>Netlify <i class="bi bi-git" style="color: aqua"></i></span
 					></a>
@@ -483,7 +492,64 @@
 				<img src="./img/facebook.jpeg" alt="facebook" class="view-tiles_img1" />
 			</ul>
 		</div>
-		<script src="./js/app.js"></script>
+
+		<!-- footer -->
+
+		<footer class="footer container-flud d-flex">
+			<links>
+				<div class="footer-links">
+					<ul class="navbar-nav me-auto my-2 my-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#header"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#about-me"
+								>About me</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#portfolio"
+								>Portfolio</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+				<contact>
+					<ul class="navbar-nav me-auto my-2 my-lg-0">
+						<li class="nav-item mt-2">Contact:</li>
+						<li class="nav-item mt-3">Email: in2008@gmail.com</li>
+						<li class="nav-item mt-3">Inst: in2008</li>
+						<li class="nav-item mt-2">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="tel:+9989991735313"
+								>Calls: +998 (99)-173-53-13</a
+							>
+						</li>
+					</ul>
+				</contact>
+			</links>
+			<brends>
+				<brand class="d-flex brend">
+					<a class="navbar-brand" href="#">I <span>N</span></a>
+					<a href="#header" class="arrow-up"
+						><i class="bi bi-arrow-up" style="font-size: 25px"></i
+					></a>
+				</brand>
+				<span>Islombek Norboyev</span>
+			</brends>
+		</footer>
+
+		<!-- script links-->
+
 		<script
 			src="https://code.jquery.com/jquery-3.6.1.min.js"
 			integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
@@ -500,5 +566,7 @@
 			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
 			crossorigin="anonymous"
 		></script>
+		<script src="./js/modal.js"></script>
+		<script src="./js/app.js"></script>
 	</body>
 </html>

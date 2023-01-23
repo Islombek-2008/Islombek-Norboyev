@@ -12,6 +12,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 	padding: 60px;
 }
 /* header item */
@@ -61,4 +62,22 @@ p {
 .header-img img {
 	width: 525px;
 	height: 525px;
+}
+
+@media (max-width: 587px) {
+	.header-img img {
+		width: 325px;
+		height: 325px;
+	}
+}
+@media (max-width: 483px) {
+	.header h1,
+	h2,
+	span,
+	p {
+		font-size: 28px;
+	}
+	.header-item {
+		width: 100%;
+	}
 }

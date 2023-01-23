@@ -1,6 +1,7 @@
 .portfolio {
-	height: 954px;
+	height: 100%;
 	width: 100%;
+	padding: 108px 0 150px 0;
 	background: #2a2a2a;
 	display: flex;
 	align-items: center;
@@ -9,7 +10,7 @@
 }
 .portfolio-me {
 	width: 100%;
-	height: 704px;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -62,10 +63,46 @@
 	color: #ffffff;
 }
 .icon1 {
-	top: 300px;
-	left: -80px;
+	top: 50%;
+	left: -10%;
 }
 .icon2 {
-	top: 300px;
-	right: -80px;
+	top: 50%;
+	right: -10%;
+}
+@media (max-width: 1089px) {
+	.carusel-card {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+		box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+		border-radius: 29px;
+		padding: 50px;
+	}
+	.carusel-card img {
+		height: 270px;
+		width: 370px;
+		object-fit: cover;
+	}
+	.carusel-info {
+		width: 196px;
+		height: 100%;
+		margin: 34px 100px 34px 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.icon1 {
+		top: -2.8%;
+		left: 45%;
+	}
+	.icon2 {
+		top: -2.8%;
+		right: 45%;
+	}
 }
