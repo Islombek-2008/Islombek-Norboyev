@@ -109,7 +109,7 @@ hr {
 	.about {
 		height: 1061px;
 		width: 100%;
-		margin-top: 198px;
+		margin-top: 498px;
 		margin-bottom: 300px;
 		display: flex;
 		justify-content: center;
@@ -125,8 +125,8 @@ hr {
 		top: 50px;
 		left: auto;
 		width: auto;
-		height: 774px;
-		padding: 0 63px;
+		height: 814px;
+		padding: 15 63px;
 		background: #2c2c2c;
 		border-radius: 14px;
 	}
@@ -159,5 +159,21 @@ hr {
 		width: 230px;
 		height: 251px;
 		object-fit: cover;
+	}
+}
+@media (max-width: 476px) {
+	.about-me__item {
+		padding: 12px;
+		margin-bottom: 600px;
+	}
+	.about-me_img {
+		left: 10%;
+	}
+	.about-me_img1 {
+		left: 18%;
+	}
+	.about-me_img2 {
+		left: 18%;
+		top: 1250px;
 	}
 }
