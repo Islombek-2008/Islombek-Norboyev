@@ -5,3 +5,8 @@
 .navbar-brand span {
 	color: darkorange;
 }
+@media (max-width: 991px) {
+	.nav-h1 span {
+		transform: rotate(90deg);
+	}
+}
