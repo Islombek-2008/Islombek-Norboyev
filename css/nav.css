@@ -6,7 +6,15 @@
 	color: darkorange;
 }
 @media (max-width: 991px) {
+	.nav-h1 {
+		display: flex;
+	}
 	.nav-h1 span {
+		display: block;
 		transform: rotate(90deg);
+		margin-left: 5px;
+	}
+	.nav-button {
+		width: 60%;
 	}
 }
