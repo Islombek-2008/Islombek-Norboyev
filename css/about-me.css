@@ -122,7 +122,7 @@ hr {
 	.about-me__item {
 		position: absolute;
 		position: relative;
-		top: 50px;
+		top: -120px;
 		left: auto;
 		width: auto;
 		height: 814px;
@@ -137,7 +137,7 @@ hr {
 		border-radius: 5px;
 		object-fit: cover;
 		position: absolute;
-		top: -260px;
+		top: -450px;
 		left: 25%;
 	}
 	.about-me_img1 {
@@ -165,15 +165,18 @@ hr {
 	.about-me__item {
 		padding: 12px;
 		margin-bottom: 600px;
+		margin-top: 300px;
 	}
 	.about-me_img {
 		left: 10%;
+		top: -130px;
 	}
 	.about-me_img1 {
 		left: 18%;
+		top: 1050px;
 	}
 	.about-me_img2 {
 		left: 18%;
-		top: 1250px;
+		top: 1350px;
 	}
 }
