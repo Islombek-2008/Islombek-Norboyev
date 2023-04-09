@@ -1,63 +1,63 @@
 .navbar {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  height: 70px;
 }
 .navbar a {
-	border-bottom: 1px solid transparent;
-	margin: 0;
+  border-bottom: 1px solid transparent;
+  margin: 0;
 }
 .navbar li a:hover {
-	border-bottom: 1px solid goldenrod;
+  border-bottom: 1px solid goldenrod;
 }
 .offcanvas {
-	align-items: end;
+  align-items: end;
 }
 .dropdown {
-	display: none;
+  display: none;
 }
 .navbar-brand {
-	font-size: 45px;
-	font-family: impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 45px;
+  font-family: impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .navbar-brand:hover {
-	transform: scale(1.1);
-	transition: all 0.5s;
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 .navbar-brand span {
-	color: darkorange;
+  color: darkorange;
 }
 @media (max-width: 613px) {
-	.offcanvas {
-		display: none;
-	}
-	.dropdown {
-		display: block;
-	}
-	.dropdown-menu {
-		position: absolute;
-		right: 75px;
-		height: 200px;
-		padding: 20px 28px;
-		border-radius: 20px;
-		border-top-right-radius: 0px;
-	}
-	.dropdown-menu a {
-		margin: 10px !important;
-		border-bottom: 1px solid transparent;
-	}
-	.dropdown-menu a:hover {
-		border-bottom: 1px solid goldenrod;
-	}
-	.respons-btn {
-		border: 0;
-		padding: 0 15px;
-		border: 1px solid darkkhaki;
-		border-radius: 5px;
-	}
-	.respons-btn:active {
-		transition: all 0.5s;
-		transform: scale(1.1);
-	}
+  .offcanvas {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .dropdown-menu {
+    position: absolute;
+    right: 75px;
+    padding: 20px 28px;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+  }
+  .dropdown-menu a {
+    margin: 10px !important;
+    border-bottom: 1px solid transparent;
+  }
+  .dropdown-menu a:hover {
+    border-bottom: 1px solid goldenrod;
+  }
+  .respons-btn {
+    border: 0;
+    padding: 0 15px;
+    border: 1px solid darkkhaki;
+    border-radius: 5px;
+  }
+  .respons-btn:active {
+    transition: all 0.5s;
+    transform: scale(1.1);
+  }
 }
