@@ -26,11 +26,14 @@
 }
 .carusel-card {
 	width: 970px;
-	height: 600px;
+	height: 650px;
 	background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
 	box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
 	border-radius: 29px;
 	padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .carusel-card img {
 	height: 500px;
@@ -40,7 +43,7 @@
 .carusel-info {
 	width: 196px;
 	height: 436px;
-	margin: 34px 0 34px 50px;
+	margin: 34px  34px 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -51,7 +54,7 @@
 	font-size: 24px;
 	line-height: 29px;
 	color: #ffffff;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 .carusel-info p {
 	font-weight: 300;
